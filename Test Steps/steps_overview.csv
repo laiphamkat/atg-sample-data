@@ -1,24 +1,23 @@
 Flow ID,Description,Test Steps,Flow Priority
-3,Verify Adding Multiple Items to Cart and Proceeding to Checkout,"step 1: Navigate to Page home
+3,Verify Successful Checkout Process from Cart to Step Two,"step 1: Navigate to Page home
 step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on button add to cart sauce labs bolt t shirt
-step 4: At Page inventory html click on button add to cart sauce labs bike light
-step 5: At Page inventory html click on hyperlink object --> navigate to Page cart html
-step 6: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
-step 7: At Page checkout-step-one html input on input first name
-step 8: At Page checkout-step-one html input on input last name
-step 9: At Page checkout-step-one html input on input postal code
-step 10: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
-step 11: Add visual checkpoint at Page checkout-step-two html",High
-2,Verify Removing Item from Inventory Page,"step 1: Navigate to Page home
+step 3: At Page inventory html click on button remove sauce labs backpack
+step 4: At Page inventory html click on hyperlink object --> navigate to Page cart html
+step 5: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
+step 6: At Page checkout-step-one html input on input first name
+step 7: At Page checkout-step-one html input on input last name
+step 8: At Page checkout-step-one html input on input postal code
+step 9: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
+step 10: Add visual checkpoint at Page checkout-step-two html",High
+1,Verify Successful Removal of Sauce Labs Backpack from Inventory,"step 1: Navigate to Page home
 step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on hyperlink item 1 title link --> navigate to Page inventory-item html
-step 4: At Page inventory-item html click on button remove sauce labs bolt t shirt
-step 5: Add visual checkpoint at Page inventory-item html",Medium
-1,Verify Adding Item to Cart from Home Page and Navigating to Inventory Page,"step 1: Navigate to Page home
-step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on button add to cart sauce labs bolt t shirt
+step 3: At Page inventory html click on button remove sauce labs backpack
 step 4: At Page inventory html click on button react burger menu btn
 step 5: Add visual checkpoint at Page inventory html",Medium
-4,Verify Successful Checkout and Navigating to Checkout Complete Page,"step 1: Navigate to Page checkout-complete html
+2,Verify Successful Addition of Sauce Labs Bolt T Shirt to Cart,"step 1: Navigate to Page home
+step 2: Login at Page home --> navigate to Page inventory html
+step 3: At Page inventory html click on hyperlink item 1 title link --> navigate to Page inventory-item html
+step 4: At Page inventory-item html click on button add to cart sauce labs bolt t shirt
+step 5: Add visual checkpoint at Page inventory-item html",Medium
+4,Verify Successful Navigation to Checkout Complete Page,"step 1: Navigate to Page checkout-complete html
 step 2: Add visual checkpoint at Page checkout-complete html",Trivial

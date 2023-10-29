@@ -1,7 +1,7 @@
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -63,9 +63,9 @@ WebUI.submit(testObj)
 
 WebUI.delay(15)
 
-'step 3: At Page inventory html click on hyperlink item 1 title link --> navigate to Page inventory-item html'
+'step 3: At Page inventory html click on button remove sauce labs backpack'
 
-testObj = findTestObject('Object Repository/Page_inventory_html/hyperlink_item_1_title_link')
+testObj = findTestObject('Object Repository/Page_inventory_html/button_remove_sauce_labs_backpack')
 
 WebUI.delay(3)
 
@@ -77,9 +77,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory.html(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 4: At Page inventory-item html click on button remove sauce labs bolt t shirt'
+'step 4: At Page inventory html click on button react burger menu btn'
 
-testObj = findTestObject('Object Repository/Page_inventory-item_html/button_remove_sauce_labs_bolt_t_shirt')
+testObj = findTestObject('Object Repository/Page_inventory_html/button_react_burger_menu_btn')
 
 WebUI.delay(3)
 
@@ -87,13 +87,13 @@ WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory-item.html(?:#.*)?(?:\\?.*)?$', true)
+WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory.html(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 5: Add visual checkpoint at Page inventory-item html'
+'step 5: Add visual checkpoint at Page inventory html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Removing Item from Inventory Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Removal of Sauce Labs Backpack from Inventory_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
